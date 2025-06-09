@@ -4,4 +4,5 @@ jobs:
   Testing:
     runs-on: ubuntu-latest
     steps:
-      sh 'echo "workflow executed" '
+      name: testing workflow
+      run: echo "workflow workes"
